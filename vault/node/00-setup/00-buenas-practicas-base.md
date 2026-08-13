@@ -171,9 +171,3 @@ export default tseslint.config(
   _R:_ Porque crean conflictos con Prettier. ESLint debe centrarse en la calidad de código (_code quality_) y Prettier en el formateo (_formatting_).
 - **P: ¿Cómo garantiza Zod que `process.env.PORT` no sea un string en TypeScript?**  
   _R:_ Mediante `z.coerce.number()`, que parsea y transforma automáticamente la cadena a un valor de tipo `number`.
-
----
-
-## ❓ Siguiente paso sugerido
-
-Con las buenas prácticas base dominadas, el siguiente paso lógico es aprender **[[01-motor-v8|Motor V8 a fondo: Call Stack, Memory Heap y JIT Compiler]]** para entender cómo el runtime ejecuta este código en memoria.

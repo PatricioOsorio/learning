@@ -43,16 +43,20 @@ Reglas:
 
 ## Planificar antes de actuar
 
-**Presenta siempre un plan y espera aprobación explícita antes de implementar cualquier cambio no trivial.**
+**Aclara siempre los requisitos y presenta un plan antes de implementar cualquier cambio que no sea trivial.**
 
-No trivial = cualquier cosa que vaya más allá de una corrección de una sola línea. Esto incluye: nuevos archivos, refactorizaciones, adición de características, cambios de dependencias, cambios de configuración.
+No trivial = cualquier cosa que vaya más allá de una corrección de una sola línea. Esto incluye: nuevos archivos, refactorizaciones, incorporación de nuevas funcionalidades, cambios en las dependencias y cambios en la configuración.
 
-Formato:
+Flujo de trabajo:
 
-1. Declara lo que encontraste.
-2. Enumera los cambios propuestos (archivos + qué cambios).
-3. Señala riesgos o incógnitas.
-4. Espera por "dale" / "go" / "sí".
+1. **Aclarar ambigüedades**: Si los requisitos, la arquitectura o el alcance son ambiguos o tienen varias vías válidas, haz PRIMERO preguntas aclaratorias al usuario. Resuelve las dudas pendientes antes de redactar el plan.
+2. **Presentar el plan**:
+   - Exponer lo que has encontrado
+   - Enumerar los cambios propuestos (archivos + qué cambios)
+   - Señalar los riesgos, las compensaciones o las incógnitas
+3. **Esperar la aprobación**: Espera a recibir un «adelante» o un «sí» explícito por parte del usuario.
+
+Traducción realizada con la versión gratuita del traductor DeepL.com
 
 NO escribas código hasta que esté aprobado.
 
