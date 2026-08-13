@@ -1,0 +1,6 @@
+.env
+.notion-backups/
+.DS_Store
+vault/.obsidian/
+*.png
+node_modules/

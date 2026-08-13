@@ -1,0 +1,51 @@
+{
+  "_comment": "Learning Obsidian Vault <-> Notion Page Map",
+  "node": {
+    "id": "e6c75a3efbe540db9d39ba4daa6f4112",
+    "path": "vault/node/node.md"
+  },
+  "old": {
+    "id": "3bb0b31f-ce98-8050-8d59-dd6d917dd824",
+    "path": "vault/node/old/old.md"
+  },
+  "introduccion": {
+    "id": "abab26c4-ab0b-4866-8745-4c02fbd5fb56",
+    "path": "vault/node/old/introduccion.md"
+  },
+  "npm": {
+    "id": "f0c3ebc0-bb42-4138-bb39-4e0be1839562",
+    "path": "vault/node/old/npm.md"
+  },
+  "promesas": {
+    "id": "03ed9d16-8cd0-47bd-86da-2e4333b98c80",
+    "path": "vault/node/old/promesas.md"
+  },
+  "repl": {
+    "id": "a4707db0-2429-4d90-bf82-29c2f0044bb2",
+    "path": "vault/node/old/repl.md"
+  },
+  "modulos": {
+    "id": "4e3df28d-3357-4a19-9822-8e450d190491",
+    "path": "vault/node/old/modulos.md"
+  },
+  "globals": {
+    "id": "00027f53-8fbd-45af-9311-630ca2385304",
+    "path": "vault/node/old/globals.md"
+  },
+  "apis-de-node": {
+    "id": "d18e16d8-6134-4430-95b6-523307bec7b2",
+    "path": "vault/node/old/apis-de-node.md"
+  },
+  "servidor": {
+    "id": "dfabbdce-6d04-41a4-9d2a-7898bb380629",
+    "path": "vault/node/old/servidor.md"
+  },
+  "vistas": {
+    "id": "1f3831fa-ca31-4dd0-8ce8-9c0cb3fc36a9",
+    "path": "vault/node/old/vistas.md"
+  },
+  "database": {
+    "id": "418d0bdd-5918-4088-a5f1-91ca01c6f0f7",
+    "path": "vault/node/old/database.md"
+  }
+}
