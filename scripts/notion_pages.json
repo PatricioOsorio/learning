@@ -48,316 +48,316 @@
     "id": "418d0bdd-5918-4088-a5f1-91ca01c6f0f7",
     "path": "vault/node/old/database.md"
   },
-  "00-buenas-practicas-base": {
+  "01-que-es-node": {
     "id": "",
-    "path": "vault/node/00-setup/00-buenas-practicas-base.md"
+    "path": "vault/node/00-setup/01-que-es-node.md"
   },
-  "00-ciclo-de-ejecucion": {
+  "02-instalacion-entorno": {
     "id": "",
-    "path": "vault/node/00-setup/00-ciclo-de-ejecucion.md"
+    "path": "vault/node/00-setup/02-instalacion-entorno.md"
   },
-  "00-estructura-de-proyecto": {
+  "03-tipos-de-proyectos": {
     "id": "",
-    "path": "vault/node/00-setup/00-estructura-de-proyecto.md"
+    "path": "vault/node/00-setup/03-tipos-de-proyectos.md"
   },
-  "00-instalacion-entorno": {
+  "04-estructura-de-proyecto": {
     "id": "",
-    "path": "vault/node/00-setup/00-instalacion-entorno.md"
+    "path": "vault/node/00-setup/04-estructura-de-proyecto.md"
   },
-  "00-primer-hello-world-ts": {
+  "05-ciclo-de-ejecucion": {
     "id": "",
-    "path": "vault/node/00-setup/00-primer-hello-world-ts.md"
+    "path": "vault/node/00-setup/05-ciclo-de-ejecucion.md"
   },
-  "00-que-es-node": {
+  "06-primer-hello-world-ts": {
     "id": "",
-    "path": "vault/node/00-setup/00-que-es-node.md"
+    "path": "vault/node/00-setup/06-primer-hello-world-ts.md"
   },
-  "00-tipos-de-proyectos": {
+  "07-buenas-practicas-base": {
     "id": "",
-    "path": "vault/node/00-setup/00-tipos-de-proyectos.md"
-  },
-  "01-bloqueo-event-loop": {
-    "id": "",
-    "path": "vault/node/01-runtime-v8/01-bloqueo-event-loop.md"
-  },
-  "01-event-loop-fases": {
-    "id": "",
-    "path": "vault/node/01-runtime-v8/01-event-loop-fases.md"
-  },
-  "01-libuv-cpp-core": {
-    "id": "",
-    "path": "vault/node/01-runtime-v8/01-libuv-cpp-core.md"
-  },
-  "01-manejo-global-excepciones": {
-    "id": "",
-    "path": "vault/node/01-runtime-v8/01-manejo-global-excepciones.md"
-  },
-  "01-microtasks-vs-macrotasks": {
-    "id": "",
-    "path": "vault/node/01-runtime-v8/01-microtasks-vs-macrotasks.md"
+    "path": "vault/node/00-setup/07-buenas-practicas-base.md"
   },
   "01-motor-v8": {
     "id": "",
     "path": "vault/node/01-runtime-v8/01-motor-v8.md"
   },
-  "01-v8-flags-cli": {
+  "02-libuv-cpp-core": {
     "id": "",
-    "path": "vault/node/01-runtime-v8/01-v8-flags-cli.md"
+    "path": "vault/node/01-runtime-v8/02-libuv-cpp-core.md"
   },
-  "02-commonjs-vs-esm": {
+  "03-event-loop-fases": {
     "id": "",
-    "path": "vault/node/02-ecosistema-ts/02-commonjs-vs-esm.md"
+    "path": "vault/node/01-runtime-v8/03-event-loop-fases.md"
   },
-  "02-compiladores-bundlers-backend": {
+  "04-microtasks-vs-macrotasks": {
     "id": "",
-    "path": "vault/node/02-ecosistema-ts/02-compiladores-bundlers-backend.md"
+    "path": "vault/node/01-runtime-v8/04-microtasks-vs-macrotasks.md"
   },
-  "02-novedades-nativas-node": {
+  "05-bloqueo-event-loop": {
     "id": "",
-    "path": "vault/node/02-ecosistema-ts/02-novedades-nativas-node.md"
+    "path": "vault/node/01-runtime-v8/05-bloqueo-event-loop.md"
   },
-  "02-path-aliases-package-exports": {
+  "06-manejo-global-excepciones": {
     "id": "",
-    "path": "vault/node/02-ecosistema-ts/02-path-aliases-package-exports.md"
+    "path": "vault/node/01-runtime-v8/06-manejo-global-excepciones.md"
+  },
+  "07-v8-flags-cli": {
+    "id": "",
+    "path": "vault/node/01-runtime-v8/07-v8-flags-cli.md"
+  },
+  "01-commonjs-vs-esm": {
+    "id": "",
+    "path": "vault/node/02-ecosistema-ts/01-commonjs-vs-esm.md"
   },
   "02-typescript-setup-node": {
     "id": "",
     "path": "vault/node/02-ecosistema-ts/02-typescript-setup-node.md"
   },
-  "02-variables-entorno-zod": {
+  "03-compiladores-bundlers-backend": {
     "id": "",
-    "path": "vault/node/02-ecosistema-ts/02-variables-entorno-zod.md"
+    "path": "vault/node/02-ecosistema-ts/03-compiladores-bundlers-backend.md"
   },
-  "03-async-local-storage": {
+  "04-novedades-nativas-node": {
     "id": "",
-    "path": "vault/node/03-asincronia-streams/03-async-local-storage.md"
+    "path": "vault/node/02-ecosistema-ts/04-novedades-nativas-node.md"
   },
-  "03-backpressure-streams": {
+  "05-path-aliases-package-exports": {
     "id": "",
-    "path": "vault/node/03-asincronia-streams/03-backpressure-streams.md"
+    "path": "vault/node/02-ecosistema-ts/05-path-aliases-package-exports.md"
   },
-  "03-buffers-arraybuffers": {
+  "06-variables-entorno-zod": {
     "id": "",
-    "path": "vault/node/03-asincronia-streams/03-buffers-arraybuffers.md"
+    "path": "vault/node/02-ecosistema-ts/06-variables-entorno-zod.md"
   },
-  "03-event-emitter": {
+  "01-event-emitter": {
     "id": "",
-    "path": "vault/node/03-asincronia-streams/03-event-emitter.md"
+    "path": "vault/node/03-asincronia-streams/01-event-emitter.md"
+  },
+  "02-buffers-arraybuffers": {
+    "id": "",
+    "path": "vault/node/03-asincronia-streams/02-buffers-arraybuffers.md"
   },
   "03-streams-fundamentos": {
     "id": "",
     "path": "vault/node/03-asincronia-streams/03-streams-fundamentos.md"
   },
-  "04-child-processes": {
+  "04-backpressure-streams": {
     "id": "",
-    "path": "vault/node/04-cli-procesos/04-child-processes.md"
+    "path": "vault/node/03-asincronia-streams/04-backpressure-streams.md"
+  },
+  "05-async-local-storage": {
+    "id": "",
+    "path": "vault/node/03-asincronia-streams/05-async-local-storage.md"
+  },
+  "01-proceso-process": {
+    "id": "",
+    "path": "vault/node/04-cli-procesos/01-proceso-process.md"
+  },
+  "02-child-processes": {
+    "id": "",
+    "path": "vault/node/04-cli-procesos/02-child-processes.md"
+  },
+  "03-ipc-comunicacion": {
+    "id": "",
+    "path": "vault/node/04-cli-procesos/03-ipc-comunicacion.md"
   },
   "04-clis-profesionales": {
     "id": "",
     "path": "vault/node/04-cli-procesos/04-clis-profesionales.md"
   },
-  "04-ipc-comunicacion": {
+  "01-clean-architecture-capas": {
     "id": "",
-    "path": "vault/node/04-cli-procesos/04-ipc-comunicacion.md"
+    "path": "vault/node/05-clean-architecture/01-clean-architecture-capas.md"
   },
-  "04-proceso-process": {
+  "02-inversion-dependencias": {
     "id": "",
-    "path": "vault/node/04-cli-procesos/04-proceso-process.md"
+    "path": "vault/node/05-clean-architecture/02-inversion-dependencias.md"
   },
-  "05-clean-architecture-capas": {
+  "03-repository-pattern": {
     "id": "",
-    "path": "vault/node/05-clean-architecture/05-clean-architecture-capas.md"
+    "path": "vault/node/05-clean-architecture/03-repository-pattern.md"
   },
-  "05-inversion-dependencias": {
+  "04-manejo-errores-dominio": {
     "id": "",
-    "path": "vault/node/05-clean-architecture/05-inversion-dependencias.md"
-  },
-  "05-manejo-errores-dominio": {
-    "id": "",
-    "path": "vault/node/05-clean-architecture/05-manejo-errores-dominio.md"
+    "path": "vault/node/05-clean-architecture/04-manejo-errores-dominio.md"
   },
   "05-refactorizacion-hexagonal": {
     "id": "",
     "path": "vault/node/05-clean-architecture/05-refactorizacion-hexagonal.md"
   },
-  "05-repository-pattern": {
+  "01-frameworks-testing": {
     "id": "",
-    "path": "vault/node/05-clean-architecture/05-repository-pattern.md"
+    "path": "vault/node/06-testing/01-frameworks-testing.md"
+  },
+  "02-test-doubles": {
+    "id": "",
+    "path": "vault/node/06-testing/02-test-doubles.md"
+  },
+  "03-tdd-ciclo": {
+    "id": "",
+    "path": "vault/node/06-testing/03-tdd-ciclo.md"
+  },
+  "04-integration-testing": {
+    "id": "",
+    "path": "vault/node/06-testing/04-integration-testing.md"
+  },
+  "05-e2e-api-testing": {
+    "id": "",
+    "path": "vault/node/06-testing/05-e2e-api-testing.md"
   },
   "06-coverage-metricas": {
     "id": "",
     "path": "vault/node/06-testing/06-coverage-metricas.md"
   },
-  "06-e2e-api-testing": {
+  "01-servidor-http-nativo": {
     "id": "",
-    "path": "vault/node/06-testing/06-e2e-api-testing.md"
+    "path": "vault/node/07-servidores-web/01-servidor-http-nativo.md"
   },
-  "06-frameworks-testing": {
+  "02-http2-nativo": {
     "id": "",
-    "path": "vault/node/06-testing/06-frameworks-testing.md"
+    "path": "vault/node/07-servidores-web/02-http2-nativo.md"
   },
-  "06-integration-testing": {
+  "03-express-vs-fastify": {
     "id": "",
-    "path": "vault/node/06-testing/06-integration-testing.md"
+    "path": "vault/node/07-servidores-web/03-express-vs-fastify.md"
   },
-  "06-tdd-ciclo": {
+  "04-middlewares-pipeline": {
     "id": "",
-    "path": "vault/node/06-testing/06-tdd-ciclo.md"
+    "path": "vault/node/07-servidores-web/04-middlewares-pipeline.md"
   },
-  "06-test-doubles": {
+  "05-paginacion-filtros-rest": {
     "id": "",
-    "path": "vault/node/06-testing/06-test-doubles.md"
+    "path": "vault/node/07-servidores-web/05-paginacion-filtros-rest.md"
   },
-  "07-express-vs-fastify": {
+  "01-postgresql-pg": {
     "id": "",
-    "path": "vault/node/07-servidores-web/07-express-vs-fastify.md"
+    "path": "vault/node/08-persistencia-redis/01-postgresql-pg.md"
   },
-  "07-http2-nativo": {
+  "02-mongodb-mongoose": {
     "id": "",
-    "path": "vault/node/07-servidores-web/07-http2-nativo.md"
+    "path": "vault/node/08-persistencia-redis/02-mongodb-mongoose.md"
   },
-  "07-middlewares-pipeline": {
+  "03-orms-prisma-drizzle": {
     "id": "",
-    "path": "vault/node/07-servidores-web/07-middlewares-pipeline.md"
+    "path": "vault/node/08-persistencia-redis/03-orms-prisma-drizzle.md"
   },
-  "07-paginacion-filtros-rest": {
+  "04-migraciones-schema-db": {
     "id": "",
-    "path": "vault/node/07-servidores-web/07-paginacion-filtros-rest.md"
+    "path": "vault/node/08-persistencia-redis/04-migraciones-schema-db.md"
   },
-  "07-servidor-http-nativo": {
+  "05-database-seeding": {
     "id": "",
-    "path": "vault/node/07-servidores-web/07-servidor-http-nativo.md"
+    "path": "vault/node/08-persistencia-redis/05-database-seeding.md"
   },
-  "08-database-seeding": {
+  "06-redis-caching": {
     "id": "",
-    "path": "vault/node/08-persistencia-redis/08-database-seeding.md"
+    "path": "vault/node/08-persistencia-redis/06-redis-caching.md"
   },
-  "08-mongodb-mongoose": {
+  "01-hashing-passwords": {
     "id": "",
-    "path": "vault/node/08-persistencia-redis/08-mongodb-mongoose.md"
+    "path": "vault/node/09-autenticacion-seguridad/01-hashing-passwords.md"
   },
-  "08-orms-prisma-drizzle": {
+  "02-jwt-autenticacion": {
     "id": "",
-    "path": "vault/node/08-persistencia-redis/08-orms-prisma-drizzle.md"
+    "path": "vault/node/09-autenticacion-seguridad/02-jwt-autenticacion.md"
   },
-  "08-migraciones-schema-db": {
+  "03-autorizacion-rbac-abac": {
     "id": "",
-    "path": "vault/node/08-persistencia-redis/08-migraciones-schema-db.md"
+    "path": "vault/node/09-autenticacion-seguridad/03-autorizacion-rbac-abac.md"
   },
-  "08-postgresql-pg": {
+  "04-owasp-top-10-node": {
     "id": "",
-    "path": "vault/node/08-persistencia-redis/08-postgresql-pg.md"
+    "path": "vault/node/09-autenticacion-seguridad/04-owasp-top-10-node.md"
   },
-  "08-redis-caching": {
+  "05-criptografia-nativo": {
     "id": "",
-    "path": "vault/node/08-persistencia-redis/08-redis-caching.md"
+    "path": "vault/node/09-autenticacion-seguridad/05-criptografia-nativo.md"
   },
-  "09-autorizacion-rbac-abac": {
+  "01-protocolo-websocket-nativo": {
     "id": "",
-    "path": "vault/node/09-autenticacion-seguridad/09-autorizacion-rbac-abac.md"
+    "path": "vault/node/10-websockets/01-protocolo-websocket-nativo.md"
   },
-  "09-criptografia-nativo": {
+  "02-socketio-vs-ws": {
     "id": "",
-    "path": "vault/node/09-autenticacion-seguridad/09-criptografia-nativo.md"
+    "path": "vault/node/10-websockets/02-socketio-vs-ws.md"
   },
-  "09-hashing-passwords": {
+  "03-escalado-websockets-redis": {
     "id": "",
-    "path": "vault/node/09-autenticacion-seguridad/09-hashing-passwords.md"
+    "path": "vault/node/10-websockets/03-escalado-websockets-redis.md"
   },
-  "09-jwt-autenticacion": {
+  "04-arquitectura-hibrida-realtime": {
     "id": "",
-    "path": "vault/node/09-autenticacion-seguridad/09-jwt-autenticacion.md"
+    "path": "vault/node/10-websockets/04-arquitectura-hibrida-realtime.md"
   },
-  "09-owasp-top-10-node": {
+  "01-diseno-webhooks": {
     "id": "",
-    "path": "vault/node/09-autenticacion-seguridad/09-owasp-top-10-node.md"
+    "path": "vault/node/11-webhooks-queues/01-diseno-webhooks.md"
   },
-  "10-arquitectura-hibrida-realtime": {
+  "02-seguridad-webhooks-hmac": {
     "id": "",
-    "path": "vault/node/10-websockets/10-arquitectura-hibrida-realtime.md"
+    "path": "vault/node/11-webhooks-queues/02-seguridad-webhooks-hmac.md"
   },
-  "10-escalado-websockets-redis": {
+  "03-background-queues-bullmq": {
     "id": "",
-    "path": "vault/node/10-websockets/10-escalado-websockets-redis.md"
+    "path": "vault/node/11-webhooks-queues/03-background-queues-bullmq.md"
   },
-  "10-protocolo-websocket-nativo": {
+  "04-resiliencia-queues-dlq": {
     "id": "",
-    "path": "vault/node/10-websockets/10-protocolo-websocket-nativo.md"
+    "path": "vault/node/11-webhooks-queues/04-resiliencia-queues-dlq.md"
   },
-  "10-socketio-vs-ws": {
+  "05-message-brokers-rabbitmq-kafka": {
     "id": "",
-    "path": "vault/node/10-websockets/10-socketio-vs-ws.md"
+    "path": "vault/node/11-webhooks-queues/05-message-brokers-rabbitmq-kafka.md"
   },
-  "11-background-queues-bullmq": {
+  "01-cluster-module": {
     "id": "",
-    "path": "vault/node/11-webhooks-queues/11-background-queues-bullmq.md"
+    "path": "vault/node/12-concurrencia-workers/01-cluster-module.md"
   },
-  "11-diseno-webhooks": {
+  "02-worker-threads": {
     "id": "",
-    "path": "vault/node/11-webhooks-queues/11-diseno-webhooks.md"
+    "path": "vault/node/12-concurrencia-workers/02-worker-threads.md"
   },
-  "11-message-brokers-rabbitmq-kafka": {
+  "03-cluster-vs-workers-vs-child": {
     "id": "",
-    "path": "vault/node/11-webhooks-queues/11-message-brokers-rabbitmq-kafka.md"
+    "path": "vault/node/12-concurrencia-workers/03-cluster-vs-workers-vs-child.md"
   },
-  "11-resiliencia-queues-dlq": {
+  "04-edge-functions-serverless": {
     "id": "",
-    "path": "vault/node/11-webhooks-queues/11-resiliencia-queues-dlq.md"
+    "path": "vault/node/12-concurrencia-workers/04-edge-functions-serverless.md"
   },
-  "11-seguridad-webhooks-hmac": {
+  "01-profiling-cpu-flamegraphs": {
     "id": "",
-    "path": "vault/node/11-webhooks-queues/11-seguridad-webhooks-hmac.md"
+    "path": "vault/node/13-profiling-performance/01-profiling-cpu-flamegraphs.md"
   },
-  "12-cluster-module": {
+  "02-memory-leaks-heapdump": {
     "id": "",
-    "path": "vault/node/12-concurrencia-workers/12-cluster-module.md"
+    "path": "vault/node/13-profiling-performance/02-memory-leaks-heapdump.md"
   },
-  "12-cluster-vs-workers-vs-child": {
+  "03-metricas-event-loop": {
     "id": "",
-    "path": "vault/node/12-concurrencia-workers/12-cluster-vs-workers-vs-child.md"
+    "path": "vault/node/13-profiling-performance/03-metricas-event-loop.md"
   },
-  "12-edge-functions-serverless": {
+  "04-benchmarking-autocannon-k6": {
     "id": "",
-    "path": "vault/node/12-concurrencia-workers/12-edge-functions-serverless.md"
+    "path": "vault/node/13-profiling-performance/04-benchmarking-autocannon-k6.md"
   },
-  "12-worker-threads": {
+  "01-docker-multi-stage": {
     "id": "",
-    "path": "vault/node/12-concurrencia-workers/12-worker-threads.md"
+    "path": "vault/node/14-docker-devops/01-docker-multi-stage.md"
   },
-  "13-benchmarking-autocannon-k6": {
+  "02-graceful-shutdown": {
     "id": "",
-    "path": "vault/node/13-profiling-performance/13-benchmarking-autocannon-k6.md"
+    "path": "vault/node/14-docker-devops/02-graceful-shutdown.md"
   },
-  "13-memory-leaks-heapdump": {
+  "03-structured-logging-pino": {
     "id": "",
-    "path": "vault/node/13-profiling-performance/13-memory-leaks-heapdump.md"
+    "path": "vault/node/14-docker-devops/03-structured-logging-pino.md"
   },
-  "13-metricas-event-loop": {
+  "04-opentelemetry-prometheus": {
     "id": "",
-    "path": "vault/node/13-profiling-performance/13-metricas-event-loop.md"
+    "path": "vault/node/14-docker-devops/04-opentelemetry-prometheus.md"
   },
-  "13-profiling-cpu-flamegraphs": {
+  "05-orquestacion-pm2-k8s": {
     "id": "",
-    "path": "vault/node/13-profiling-performance/13-profiling-cpu-flamegraphs.md"
-  },
-  "14-docker-multi-stage": {
-    "id": "",
-    "path": "vault/node/14-docker-devops/14-docker-multi-stage.md"
-  },
-  "14-graceful-shutdown": {
-    "id": "",
-    "path": "vault/node/14-docker-devops/14-graceful-shutdown.md"
-  },
-  "14-opentelemetry-prometheus": {
-    "id": "",
-    "path": "vault/node/14-docker-devops/14-opentelemetry-prometheus.md"
-  },
-  "14-orquestacion-pm2-k8s": {
-    "id": "",
-    "path": "vault/node/14-docker-devops/14-orquestacion-pm2-k8s.md"
-  },
-  "14-structured-logging-pino": {
-    "id": "",
-    "path": "vault/node/14-docker-devops/14-structured-logging-pino.md"
+    "path": "vault/node/14-docker-devops/05-orquestacion-pm2-k8s.md"
   }
 }
