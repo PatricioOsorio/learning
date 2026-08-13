@@ -1,0 +1,25 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Bóveda de Obsidian para notas de tecnología y herramientas sincronizadas determinísticamente con Notion vía `bridge-sync`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatricioOsorio/learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatricioOsorio/learning/issues"
+  },
+  "homepage": "https://github.com/PatricioOsorio/learning#readme",
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
+}

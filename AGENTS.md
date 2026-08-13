@@ -87,10 +87,11 @@ learning/
 
 ## Patrón Pedagógico de Apuntes Basado en Evidencia (Template por Módulo)
 
-Al crear o refinar cualquier nota o módulo de contenido en `./vault/`, el agente DEBE seguir este patrón pedagógico optimizado con las mejores prácticas de psicología cognitiva (*Active Recall*, *Dual Coding* y *Técnica Feynman*):
+Al crear o refinar cualquier nota o módulo de contenido en `./vault/`, el agente DEBE seguir este patrón pedagógico optimizado con las mejores prácticas de psicología cognitiva (_Active Recall_, _Dual Coding_ y _Técnica Feynman_):
 
 1. **Título + Cita de Objetivo:**
    Un blockquote inicial especificando el objetivo claro del módulo:
+
    > **Objetivo del módulo:** [Descripción clara de lo que se va a dominar]
 
 2. **▶️ Panorámica rápida:**
@@ -104,8 +105,9 @@ Al crear o refinar cualquier nota o módulo de contenido en `./vault/`, el agent
 
 5. **📑 Conceptos Clave & Trampas Mentales:**
    Una tabla de 3 columnas enfocada en diferenciar conceptos y errores comunes:
+
    | Concepto | Clave práctica | Antipatrón / Trampa común |
-   | --- | --- | --- |
+   | -------- | -------------- | ------------------------- |
 
 6. **⚡ Buenas prácticas:**
    Lista de recomendaciones imperativas (`Prefiere...`, `Evita...`, `Usa con precaución...`).
@@ -122,7 +124,7 @@ Al crear o refinar cualquier nota o módulo de contenido en `./vault/`, el agent
    - `[ ] Sin mirar la nota, ¿puedo explicar por qué ocurre X?`
    - `[ ] ¿Puedo escribir el snippet básico de memoria?`
 
-10. *(Opcional)* **❓ Flashcards rápidas:**
+10. _(Opcional)_ **❓ Flashcards rápidas:**
     Preguntas cortas de repaso o recomendación del "siguiente paso sugerido".
 
 ---
@@ -154,9 +156,10 @@ bridge-sync create --name solid --title "SOLID Principles" --parent <parent-id> 
 
 2. **Frontmatter YAML (Íconos y Repetición Espaciada):**
    Toda nota debe definir su ícono emoji y los metadatos de repaso espaciado en su frontmatter:
+
    ```yaml
    ---
-   icon: "🟢"
+   icon: '🟢'
    last_reviewed: 2026-08-13
    review_stage: 1 # Intervalos: 1 (1d), 2 (3d), 3 (7d), 4 (14d), 5 (30d), 6 (90d)
    next_review: 2026-08-14
@@ -172,7 +175,7 @@ bridge-sync create --name solid --title "SOLID Principles" --parent <parent-id> 
 ## Flujo de Repaso Espaciado y Active Recall
 
 - **Identificación de Repasos Pendientes:** Cuando el usuario solicite estudiar o repasar, examina la propiedad `next_review` en los archivos de `./vault/` y selecciona las notas donde la fecha sea igual o anterior a la fecha actual.
-- **Evaluación a Ciegas:** Formula 2 o 3 preguntas de *Active Recall* basadas en el checklist o trampas mentales de la nota elegida sin revelar las soluciones hasta que el usuario responda.
+- **Evaluación a Ciegas:** Formula 2 o 3 preguntas de _Active Recall_ basadas en el checklist o trampas mentales de la nota elegida sin revelar las soluciones hasta que el usuario responda.
 - **Actualización de Estadio (`review_stage`):**
   - **Éxito:** Incrementa `review_stage` (+1), actualiza `last_reviewed` a la fecha actual y calcula `next_review` sumando los días correspondientes según el nuevo estadio:
     - Estadio 1: +1 día

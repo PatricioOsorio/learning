@@ -81,6 +81,7 @@ next_review: 2026-08-14
 - 🎭 [[06-test-doubles|Test Doubles: Mocks, Spies, Stubs y Fakes]]
 - 🔴 [[06-tdd-ciclo|TDD (Test-Driven Development): Red-Green-Refactor]]
 - 🔗 [[06-integration-testing|Integration Testing con bases de datos en contenedores]]
+- 🌐 [[06-e2e-api-testing|Pruebas E2E de APIs HTTP con Supertest y Testcontainers]]
 - 📊 [[06-coverage-metricas|Cobertura de código y métricas de calidad en CI]]
 
 ---
@@ -100,6 +101,7 @@ next_review: 2026-08-14
 - 🐘 [[08-postgresql-pg|PostgreSQL con pg: Connection Pool y Transacciones ACID]]
 - 🍃 [[08-mongodb-mongoose|MongoDB con Mongoose: Esquemas, Índices y Agregaciones]]
 - 🛠️ [[08-orms-prisma-drizzle|ORMs y Query Builders: Prisma y Drizzle ORM]]
+- 📜 [[08-migraciones-schema-db|Migraciones de Esquema de Base de Datos y control de versiones]]
 - 🌱 [[08-database-seeding|Database Seeding automatizado]]
 - ⚡ [[08-redis-caching|Caching con Redis y estrategia Cache-Aside]]
 

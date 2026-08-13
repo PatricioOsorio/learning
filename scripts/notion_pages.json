@@ -188,6 +188,10 @@
     "id": "",
     "path": "vault/node/06-testing/06-coverage-metricas.md"
   },
+  "06-e2e-api-testing": {
+    "id": "",
+    "path": "vault/node/06-testing/06-e2e-api-testing.md"
+  },
   "06-frameworks-testing": {
     "id": "",
     "path": "vault/node/06-testing/06-frameworks-testing.md"
@@ -235,6 +239,10 @@
   "08-orms-prisma-drizzle": {
     "id": "",
     "path": "vault/node/08-persistencia-redis/08-orms-prisma-drizzle.md"
+  },
+  "08-migraciones-schema-db": {
+    "id": "",
+    "path": "vault/node/08-persistencia-redis/08-migraciones-schema-db.md"
   },
   "08-postgresql-pg": {
     "id": "",

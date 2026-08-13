@@ -1,0 +1,6 @@
+node_modules
+.notion-backups
+.agents
+dist
+build
+.git
